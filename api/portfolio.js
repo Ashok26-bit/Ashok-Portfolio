@@ -50,7 +50,23 @@ export default async function handler(req, res) {
         }
       }
 
+      const artworkTitlesToRemove = new Set([
+        'Traditional Charcoal & Graphite Study',
+        'Devotional Mandala & Indian Heritage Art'
+      ]);
+      const filteredArtworks = Array.isArray(doc.artworks)
+        ? doc.artworks.filter((artwork) => !artworkTitlesToRemove.has(artwork.title))
+        : doc.artworks;
+
+      if (Array.isArray(doc.artworks) && filteredArtworks.length !== doc.artworks.length) {
+        await collection.updateOne(
+          { key: 'main_portfolio' },
+          { $set: { artworks: filteredArtworks, updatedAt: new Date() } }
+        );
+      }
+
       const { _id, key, createdAt, updatedAt, ...cleanData } = doc;
+      cleanData.artworks = filteredArtworks;
       return res.status(200).json({
         source: 'mongodb',
         updatedAt: updatedAt || new Date(),

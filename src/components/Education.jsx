@@ -67,7 +67,7 @@ export const Education = () => {
                 Cumulative Grade Point Average
               </div>
               <div className="text-4xl font-extrabold text-[#3A637B] font-display">
-                {profile.cgpa || "7.79"}
+                {profile.cgpa || "7.53"}
               </div>
               <div className="text-xs text-[#52616B] font-medium mt-1">
                 Scale of 10.0 • Verified Academic Standing

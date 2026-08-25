@@ -24,9 +24,11 @@ export const Footer = ({ onOpenSettings }) => {
           {/* Col 1: Brand & Bio */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#96C2DB] to-[#3A637B] flex items-center justify-center text-white font-display font-bold text-lg shadow-sm">
-                AK
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="Ashok K logo"
+                className="w-10 h-10 rounded-xl object-contain bg-white shadow-sm"
+              />
               <div>
                 <span className="font-display font-bold text-lg tracking-tight block">
                   {profile.name || "Ashok K"}

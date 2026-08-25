@@ -91,15 +91,15 @@ export const About = () => {
               </div>
               <div className="flex justify-between py-1 border-b border-[#E5EDF1]/60">
                 <dt className="text-[#52616B] font-medium">Primary Focus</dt>
-                <dd className="font-bold text-[#17212B]">{profile.title || "Java Full Stack Development"}</dd>
+                <dd className="font-bold text-[#17212B]">{profile.title || "Software Developer "}</dd>
               </div>
               <div className="flex justify-between py-1 border-b border-[#E5EDF1]/60">
-                <dt className="text-[#52616B] font-medium">University</dt>
+                <dt className="text-[#52616B] font-medium">College</dt>
                 <dd className="font-bold text-[#17212B] text-right">{profile.college || "M.A.M College of Eng. & Tech"}</dd>
               </div>
               <div className="flex justify-between py-1 border-b border-[#E5EDF1]/60">
                 <dt className="text-[#52616B] font-medium">Graduation Year</dt>
-                <dd className="font-bold text-[#17212B]">2027 ({profile.cgpa || "7.79 CGPA"})</dd>
+                <dd className="font-bold text-[#17212B]">2027 ({profile.cgpa || "7.53 CGPA"})</dd>
               </div>
               <div className="flex justify-between py-1 border-b border-[#E5EDF1]/60">
                 <dt className="text-[#52616B] font-medium">Location</dt>
@@ -107,7 +107,7 @@ export const About = () => {
               </div>
               <div className="flex justify-between py-1">
                 <dt className="text-[#52616B] font-medium">Languages</dt>
-                <dd className="font-bold text-[#17212B]">English, Tamil</dd>
+                <dd className="font-bold text-[#17212B]">Tamil, English, Español</dd>
               </div>
             </dl>
           </div>

@@ -355,7 +355,7 @@ class PortfolioRepository(private val dao: PortfolioDao) {
             institution = "M.A.M College of Engineering and Technology",
             location = "Tamil Nadu, India",
             period = "2023 – 2027",
-            grade = "CGPA: 7.79",
+            grade = "CGPA: 7.53",
             keyHighlights = listOf(
                 "Focus on Core Software Engineering, Full-Stack Architecture, and Systems Design",
                 "Active participation in coding contests, technical symposiums, and software workshops",
@@ -367,37 +367,9 @@ class PortfolioRepository(private val dao: PortfolioDao) {
 
     // --- INITIALIZATION ---
     suspend fun initializeDatabaseIfEmpty() {
-        // 1. Projects
-        if (dao.getProjectCount() == 0) {
-            dao.insertProject(
-                ProjectEntity(
-                    title = "ArtIn – Artist & Artisan Professional Network",
-                    subtitle = "Empowering Traditional Artists with Modern Digital Visibility",
-                    description = "A specialized full-stack platform built to bridge the gap between traditional Indian artists, artisans, and global art enthusiasts, featuring rich portfolios and direct client interaction.",
-                    problemSolved = "Local traditional artisans often struggle with digital visibility, portfolio curation, and reaching genuine buyers beyond local fairs.",
-                    keyContribution = "Designed the complete full-stack architecture with Spring Boot REST backend, Flutter mobile client, MongoDB data schemas, and Cloudinary media upload integration.",
-                    technologies = "Java, Spring Boot, Flutter, Dart, MongoDB, Cloudinary",
-                    githubUrl = "https://github.com/Ashok-K-27",
-                    liveDemoUrl = null,
-                    isFeatured = true
-                )
-            )
-            dao.insertProject(
-                ProjectEntity(
-                    title = "Full-Stack E-Commerce Platform",
-                    subtitle = "Scalable Online Retail Solution with Spring Boot & React",
-                    description = "A production-ready e-commerce solution featuring product catalogs, secure shopping cart workflows, user authentication, and order processing capabilities.",
-                    problemSolved = "Modern online businesses require reliable backend transactional integrity paired with fast, responsive frontend state management.",
-                    keyContribution = "Constructed RESTful controllers, implemented Spring Security session/auth handling, and designed reactive React components with seamless state synchronization.",
-                    technologies = "Java, Spring Boot, React, SQL, REST APIs, Maven",
-                    githubUrl = "https://github.com/Ashok-K-27",
-                    liveDemoUrl = null,
-                    isFeatured = true
-                )
-            )
-        }
+        dao.deleteStarterProjects()
 
-        // 2. Skills
+        // 1. Skills
         if (dao.getSkillCount() == 0) {
             val initialSkills = listOf(
                 SkillEntity(categoryTitle = "Programming Languages", name = "Java", level = "Core & Advanced", isPrimary = true),

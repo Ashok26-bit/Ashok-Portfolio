@@ -9,42 +9,15 @@ export const INITIAL_PORTFOLIO_DATA = {
     location: "Tamil Nadu, India",
     education: "B.E. Computer Science and Engineering (2023 - 2027)",
     college: "M.A.M College of Engineering and Technology",
-    cgpa: "7.79 CGPA",
+    cgpa: "7.53 CGPA",
     github: "https://github.com/Ashok26-bit",
     linkedin: "https://www.linkedin.com/in/ashok-k-ashok/",
     bio: "Passionate Java Full Stack Developer and Computer Science Engineering student skilled in architecting scalable web applications, RESTful microservices, and reactive user interfaces. Proficient in Java, Spring Boot, React, and MongoDB, with hands-on internship experience in full-stack e-commerce engineering and independent platform architecture. Dedicated to clean code, robust database design, and blending analytical precision with creative traditional artistry.",
     status: "Available for Full-Stack Roles & Internships",
-    defaultAvatar: "/ashok_portrait.jpg"
+    defaultAvatar: "/ashok.png"
   },
   
-  projects: [
-    {
-      id: "proj-1",
-      title: "ArtIn – Artist & Artisan Professional Network",
-      subtitle: "Empowering Traditional Artists with Modern Digital Visibility",
-      description: "A specialized full-stack platform built to bridge the gap between traditional Indian artists, artisans, and global art enthusiasts, featuring rich digital portfolios and direct client interaction.",
-      problemSolved: "Local traditional artisans often struggle with digital visibility, portfolio curation, and reaching genuine buyers beyond local physical fairs.",
-      keyContribution: "Designed full-stack architecture with Spring Boot REST backend, Flutter mobile client, MongoDB data schemas, and Cloudinary media upload pipeline.",
-      technologies: ["Java", "Spring Boot", "Flutter", "Dart", "MongoDB", "Cloudinary", "REST APIs"],
-      githubUrl: "https://github.com/Ashok26-bit",
-      liveDemoUrl: "",
-      featured: true,
-      category: "Full Stack"
-    },
-    {
-      id: "proj-2",
-      title: "Full-Stack E-Commerce Platform",
-      subtitle: "Scalable Online Retail Solution with Spring Boot & React",
-      description: "A production-grade e-commerce solution featuring dynamic product catalogs, secure shopping cart workflows, user authentication, and order processing capabilities.",
-      problemSolved: "Modern online businesses require reliable backend transactional integrity paired with fast, responsive frontend state management.",
-      keyContribution: "Constructed RESTful controllers, implemented Spring Security session/auth handling, and designed reactive React components with seamless state synchronization.",
-      technologies: ["Java", "Spring Boot", "React", "SQL", "REST APIs", "Maven", "Git"],
-      githubUrl: "https://github.com/Ashok26-bit",
-      liveDemoUrl: "",
-      featured: true,
-      category: "Web & Enterprise"
-    }
-  ],
+  projects: [],
 
   skillCategories: [
     {
@@ -187,7 +160,7 @@ export const INITIAL_PORTFOLIO_DATA = {
     institution: "M.A.M College of Engineering and Technology",
     location: "Tamil Nadu, India",
     period: "2023 – 2027",
-    grade: "CGPA: 7.79",
+    grade: "CGPA: 7.53",
     highlights: [
       "Focused on Core Software Engineering, Full-Stack Architecture, and Systems Design.",
       "Active participation in coding contests, technical symposiums, and software workshops.",
@@ -195,22 +168,5 @@ export const INITIAL_PORTFOLIO_DATA = {
     ]
   },
 
-  artworks: [
-    {
-      id: "art-1",
-      title: "Traditional Charcoal & Graphite Study",
-      category: "Sketches",
-      description: "Fine line hatching and proportional graphite study capturing traditional expressive textures.",
-      dateAdded: "Oct 2025",
-      imageUrl: "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      id: "art-2",
-      title: "Devotional Mandala & Indian Heritage Art",
-      category: "Heritage",
-      description: "Intricate geometric patterns celebrating traditional Indian sacred motifs and temple architecture.",
-      dateAdded: "Dec 2025",
-      imageUrl: "https://images.unsplash.com/photo-1582561424760-0321d75e81fa?auto=format&fit=crop&w=800&q=80"
-    }
-  ]
+  artworks: []
 };

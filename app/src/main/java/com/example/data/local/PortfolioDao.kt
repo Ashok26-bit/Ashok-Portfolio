@@ -34,6 +34,9 @@ interface PortfolioDao {
     @Query("SELECT COUNT(*) FROM projects")
     suspend fun getProjectCount(): Int
 
+    @Query("DELETE FROM projects WHERE title IN ('ArtIn – Artist & Artisan Professional Network', 'Full-Stack E-Commerce Platform')")
+    suspend fun deleteStarterProjects()
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertProject(project: ProjectEntity): Long
 

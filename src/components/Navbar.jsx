@@ -65,9 +65,11 @@ export const Navbar = ({ onOpenSettings }) => {
             href="#hero" 
             className="flex items-center gap-3 group focus:outline-none"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#96C2DB] to-[#3A637B] flex items-center justify-center text-white font-display font-bold text-lg shadow-sm group-hover:scale-105 transition-transform">
-              AK
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="Ashok K logo"
+              className="w-10 h-10 rounded-xl object-contain bg-white shadow-sm group-hover:scale-105 transition-transform"
+            />
             <div>
               <span className="font-display font-bold text-lg tracking-tight text-[#17212B] block leading-tight">
                 Ashok K

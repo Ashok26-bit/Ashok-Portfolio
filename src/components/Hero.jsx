@@ -52,7 +52,7 @@ export const Hero = ({ onOpenSettings }) => {
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 text-xs text-[#52616B]">
               <div className="flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-[#E5EDF1]">
                 <GraduationCap className="w-4 h-4 text-[#3A637B]" />
-                <span>{profile.education || "B.E. CSE (2023–2027)"} • {profile.cgpa || "7.79 CGPA"}</span>
+                <span>{profile.education || "B.E. CSE (2023–2027)"} • {profile.cgpa || "7.53 CGPA"}</span>
               </div>
               <div className="flex items-center gap-1.5 bg-white px-3 py-1.5 rounded-lg border border-[#E5EDF1]">
                 <MapPin className="w-4 h-4 text-[#3A637B]" />
@@ -143,7 +143,7 @@ export const Hero = ({ onOpenSettings }) => {
                     <div className="text-[10px] font-medium text-[#52616B] uppercase">Degree</div>
                   </div>
                   <div className="p-2 rounded-xl bg-[#F8FAFC]">
-                    <div className="text-base font-extrabold text-[#3A637B]">7.79</div>
+                    <div className="text-base font-extrabold text-[#3A637B]">7.53</div>
                     <div className="text-[10px] font-medium text-[#52616B] uppercase">CGPA</div>
                   </div>
                   <div className="p-2 rounded-xl bg-[#F8FAFC]">
