@@ -39,7 +39,7 @@ export const Hero = ({ onOpenSettings }) => {
                 {profile.name || "Ashok K"}
               </h1>
               <h2 className="text-xl sm:text-2xl font-bold text-[#3A637B]">
-                {profile.title || "Java Full Stack App Developer"}
+                {profile.title || "Software Developer | Full Stack & App Development"}
               </h2>
             </div>
 

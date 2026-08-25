@@ -104,7 +104,7 @@ fun ContactSection(
                     )
                     Spacer(modifier = Modifier.height(10.dp))
                     Text(
-                        text = "Recipient: ashokk.cse.27@gmail.com",
+                        text = "Recipient: ashokk.profile.in@gmail.com",
                         style = MaterialTheme.typography.labelMedium.copy(
                             fontWeight = FontWeight.Bold,
                             color = PrimaryBlueGreyDark
@@ -158,7 +158,7 @@ fun ContactSection(
                 ContactDirectRow(
                     icon = Icons.Outlined.Mail,
                     label = "Email Address",
-                    value = "ashokk.cse.27@gmail.com",
+                    value = "ashokk.profile.in@gmail.com",
                     actionLabel = "Copy",
                     onAction = onCopyEmail,
                     onRowClick = onEmailAppLaunch

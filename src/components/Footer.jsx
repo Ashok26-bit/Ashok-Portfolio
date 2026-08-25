@@ -34,7 +34,7 @@ export const Footer = ({ onOpenSettings }) => {
                   {profile.name || "Ashok K"}
                 </span>
                 <span className="text-[11px] font-medium text-[#96C2DB] tracking-wider uppercase">
-                  {profile.title || "Java Full Stack App Developer"}
+                  {profile.title || "Software Developer | Full Stack & App Development"}
                 </span>
               </div>
             </div>
@@ -65,7 +65,7 @@ export const Footer = ({ onOpenSettings }) => {
               </a>
 
               <a
-                href={`mailto:${profile.email || "ashokk.cse.27@gmail.com"}`}
+                href={`mailto:${profile.email || "ashokk.profile.in@gmail.com"}`}
                 className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#3A637B] flex items-center justify-center text-white transition-colors"
                 title="Send Email"
               >

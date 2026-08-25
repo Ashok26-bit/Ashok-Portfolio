@@ -4,7 +4,7 @@
 
 **Last reviewed:** 2026-08-25
 **Product owner:** Ashok K
-**Primary identity:** Java Full Stack App Developer and Computer Science Engineering student
+**Primary identity:** Software Developer | Full Stack & App Development and Computer Science Engineering student
 **Repository:** `ashok-k-portfolio`
 
 ## 1. Product Overview

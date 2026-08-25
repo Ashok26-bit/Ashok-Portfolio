@@ -1,11 +1,11 @@
 export const INITIAL_PORTFOLIO_DATA = {
   profile: {
     name: "Ashok K",
-    title: "Java Full Stack App Developer",
+    title: "Software Developer | Full Stack & App Development",
     subtitle: "Computer Science Engineering Student & Creative Artist",
-    email: "ashokk.cse.27@gmail.com",
+    email: "ashokk.profile.in@gmail.com",
     adminEmail: "ashokk.profile.in@gmail.com",
-    phone: "+91 93603 57077",
+    phone: "+91 93421 12189",
     location: "Tamil Nadu, India",
     education: "B.E. Computer Science and Engineering (2023 - 2027)",
     college: "M.A.M College of Engineering and Technology",

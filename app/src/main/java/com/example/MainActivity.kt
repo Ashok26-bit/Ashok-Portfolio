@@ -401,7 +401,7 @@ fun PortfolioApp(
                             onMessageChange = { viewModel.onContactMessageChange(it) },
                             onSubmitForm = { viewModel.validateAndSubmitContactForm() },
                             onDismissSuccessDialog = { viewModel.dismissContactSuccessDialog() },
-                            onCopyEmail = { viewModel.copyToClipboard("Email", "ashokk.cse.27@gmail.com") },
+                            onCopyEmail = { viewModel.copyToClipboard("Email", "ashokk.profile.in@gmail.com") },
                             onEmailAppLaunch = {
                                 viewModel.openEmailIntent(
                                     context = context,

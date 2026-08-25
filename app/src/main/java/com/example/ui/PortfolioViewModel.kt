@@ -579,15 +579,15 @@ class PortfolioViewModel(application: Application) : AndroidViewModel(applicatio
     fun openEmailIntent(context: Context, subject: String = "Inquiry from Portfolio Website", body: String = "") {
         try {
             val intent = Intent(Intent.ACTION_SENDTO).apply {
-                data = Uri.parse("mailto:ashokk.cse.27@gmail.com")
+                data = Uri.parse("mailto:ashokk.profile.in@gmail.com")
                 putExtra(Intent.EXTRA_SUBJECT, subject)
                 putExtra(Intent.EXTRA_TEXT, body)
                 addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT)
             }
             context.startActivity(intent)
         } catch (e: Exception) {
-            copyToClipboard("Email", "ashokk.cse.27@gmail.com")
-            Toast.makeText(context, "Email copied: ashokk.cse.27@gmail.com", Toast.LENGTH_SHORT).show()
+            copyToClipboard("Email", "ashokk.profile.in@gmail.com")
+            Toast.makeText(context, "Email copied: ashokk.profile.in@gmail.com", Toast.LENGTH_SHORT).show()
         }
     }
 

@@ -70,7 +70,7 @@ fun AboutSection(modifier: Modifier = Modifier) {
 
             // Main about narrative
             Text(
-                text = "I am a Java Full Stack App Developer and Computer Science and Engineering student at M.A.M College of Engineering and Technology (2023–2027), Tamil Nadu.",
+                text = "I am a Software Developer | Full Stack & App Development and Computer Science and Engineering student at M.A.M College of Engineering and Technology (2023–2027), Tamil Nadu.",
                 style = MaterialTheme.typography.bodyLarge.copy(
                     fontWeight = FontWeight.Medium,
                     color = DarkText,

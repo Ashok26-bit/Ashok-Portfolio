@@ -205,7 +205,7 @@ fun HeroSection(
 
                 // Title Banner
                 Text(
-                    text = "Java Full Stack App Developer",
+                    text = "Software Developer | Full Stack & App Development",
                     style = MaterialTheme.typography.headlineMedium.copy(
                         fontSize = 18.sp,
                         fontWeight = FontWeight.SemiBold,

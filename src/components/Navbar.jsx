@@ -75,7 +75,7 @@ export const Navbar = ({ onOpenSettings }) => {
                 Ashok K
               </span>
               <span className="text-[11px] font-medium text-[#52616B] tracking-wider uppercase">
-                Java Full Stack Dev
+                Software Developer | Full Stack & App Development
               </span>
             </div>
           </a>

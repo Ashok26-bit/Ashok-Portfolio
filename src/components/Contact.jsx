@@ -81,7 +81,7 @@ export const Contact = () => {
               <div className="space-y-4 pt-2">
                 {/* Email Channel */}
                 <a
-                  href={`mailto:${profile.email || "ashokk.cse.27@gmail.com"}`}
+                  href={`mailto:${profile.email || "ashokk.profile.in@gmail.com"}`}
                   className="flex items-center gap-4 p-3.5 rounded-2xl bg-[#F8FAFC] border border-[#E5EDF1] hover:border-[#96C2DB] hover:bg-[#E5EDF1]/50 transition-all group"
                 >
                   <div className="w-10 h-10 rounded-xl bg-[#E5EDF1] text-[#3A637B] flex items-center justify-center group-hover:scale-105 transition-transform">
@@ -90,14 +90,14 @@ export const Contact = () => {
                   <div className="overflow-hidden">
                     <div className="text-[11px] font-semibold text-[#52616B]">Email</div>
                     <div className="text-xs sm:text-sm font-bold text-[#17212B] truncate">
-                      {profile.email || "ashokk.cse.27@gmail.com"}
+                      {profile.email || "ashokk.profile.in@gmail.com"}
                     </div>
                   </div>
                 </a>
 
                 {/* Phone Channel */}
                 <a
-                  href={`tel:${profile.phone || "+919360357077"}`}
+                  href={`tel:${profile.phone || "+919342112189"}`}
                   className="flex items-center gap-4 p-3.5 rounded-2xl bg-[#F8FAFC] border border-[#E5EDF1] hover:border-[#96C2DB] hover:bg-[#E5EDF1]/50 transition-all group"
                 >
                   <div className="w-10 h-10 rounded-xl bg-[#E5EDF1] text-[#3A637B] flex items-center justify-center group-hover:scale-105 transition-transform">
@@ -106,7 +106,7 @@ export const Contact = () => {
                   <div>
                     <div className="text-[11px] font-semibold text-[#52616B]">Phone / WhatsApp</div>
                     <div className="text-xs sm:text-sm font-bold text-[#17212B]">
-                      {profile.phone || "+91 93603 57077"}
+                      {profile.phone || "+91 93421 12189"}
                     </div>
                   </div>
                 </a>
@@ -203,7 +203,7 @@ export const Contact = () => {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="e.g. John Doe"
+                        placeholder="e.g. Ashok"
                         className="w-full px-4 py-3 rounded-xl bg-[#F8FAFC] border border-[#D3E2EB] text-xs sm:text-sm text-[#17212B] focus:outline-none focus:border-[#3A637B] transition-colors"
                       />
                     </div>
@@ -217,7 +217,7 @@ export const Contact = () => {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="e.g. john@example.com"
+                        placeholder="e.g. ashok@example.com"
                         className="w-full px-4 py-3 rounded-xl bg-[#F8FAFC] border border-[#D3E2EB] text-xs sm:text-sm text-[#17212B] focus:outline-none focus:border-[#3A637B] transition-colors"
                       />
                     </div>
