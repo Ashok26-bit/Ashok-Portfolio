@@ -2,6 +2,7 @@ import React from 'react';
 import { 
   Github, 
   Linkedin, 
+  Instagram, 
   Mail, 
   ArrowUp, 
   ShieldCheck
@@ -62,6 +63,16 @@ export const Footer = ({ onOpenSettings }) => {
                 title="GitHub Profile"
               >
                 <Github className="w-4 h-4" />
+              </a>
+
+              <a
+                href={profile.instagram || "https://www.instagram.com/ashok_._artist/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#E4405F] flex items-center justify-center text-white transition-colors"
+                title="Instagram Profile"
+              >
+                <Instagram className="w-4 h-4" />
               </a>
 
               <a

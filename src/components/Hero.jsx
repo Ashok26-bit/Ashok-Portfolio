@@ -4,6 +4,7 @@ import {
   Mail, 
   Github, 
   Linkedin, 
+  Instagram, 
   Sparkles, 
   MapPin, 
   GraduationCap
@@ -98,6 +99,17 @@ export const Hero = ({ onOpenSettings }) => {
               >
                 <Github className="w-4 h-4 text-[#17212B]" />
                 <span className="hidden sm:inline">GitHub</span>
+              </a>
+
+              <a
+                href={profile.instagram || "https://www.instagram.com/ashok_._artist/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-3 rounded-xl bg-white hover:bg-[#E5EDF1]/60 text-[#52616B] hover:text-[#17212B] border border-[#D3E2EB] text-sm font-medium transition-all"
+                title="Instagram Profile"
+              >
+                <Instagram className="w-4 h-4 text-[#E4405F]" />
+                <span className="hidden sm:inline">Instagram</span>
               </a>
             </div>
 

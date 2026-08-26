@@ -5,6 +5,7 @@ import {
   MapPin, 
   Github, 
   Linkedin, 
+  Instagram, 
   Send, 
   CheckCircle2, 
   MessageSquare
@@ -130,7 +131,7 @@ export const Contact = () => {
                 <div className="text-xs font-bold uppercase tracking-wider text-[#52616B]">
                   Professional Profiles
                 </div>
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <a
                     href={profile.linkedin || "https://www.linkedin.com/in/ashok-k-ashok/"}
                     target="_blank"
@@ -149,6 +150,16 @@ export const Contact = () => {
                   >
                     <Github className="w-4 h-4" />
                     <span>GitHub</span>
+                  </a>
+
+                  <a
+                    href={profile.instagram || "https://www.instagram.com/ashok_._artist/"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 p-3 rounded-xl bg-[#E4405F]/10 hover:bg-[#E4405F]/20 text-[#E4405F] border border-[#E4405F]/20 text-xs font-bold transition-all"
+                  >
+                    <Instagram className="w-4 h-4" />
+                    <span>Instagram</span>
                   </a>
                 </div>
               </div>

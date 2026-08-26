@@ -107,7 +107,7 @@ export const About = () => {
               </div>
               <div className="flex justify-between py-1">
                 <dt className="text-[#52616B] font-medium">Languages</dt>
-                <dd className="font-bold text-[#17212B]">Tamil, English, Español</dd>
+                <dd className="font-bold text-[#17212B]">தமிழ், English, Español</dd>
               </div>
             </dl>
           </div>

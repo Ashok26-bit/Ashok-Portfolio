@@ -12,6 +12,7 @@ export const INITIAL_PORTFOLIO_DATA = {
     cgpa: "7.53 CGPA",
     github: "https://github.com/Ashok26-bit",
     linkedin: "https://www.linkedin.com/in/ashok-k-ashok/",
+    instagram: "https://www.instagram.com/ashok_._artist/",
     bio: "Passionate Java Full Stack Developer and Computer Science Engineering student skilled in architecting scalable web applications, RESTful microservices, and reactive user interfaces. Proficient in Java, Spring Boot, React, and MongoDB, with hands-on internship experience in full-stack e-commerce engineering and independent platform architecture. Dedicated to clean code, robust database design, and blending analytical precision with creative traditional artistry.",
     status: "Available for Full-Stack Roles & Internships",
     defaultAvatar: "/ashok.png"
